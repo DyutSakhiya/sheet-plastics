@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   useEffect(() => {
-    // Add scroll animation effect
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -13,7 +12,6 @@ const Home = () => {
       });
     }, { threshold: 0.1 });
 
-    // Observe all sections
     document.querySelectorAll('section').forEach((section) => {
       observer.observe(section);
     });
