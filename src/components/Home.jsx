@@ -296,7 +296,7 @@ const Home = () => {
       </h2>
 
       <p className="mt-6 text-gray-600 leading-relaxed animate-slow-slide-left" style={{animationDelay: '0.4s'}}>
-        Established in 1999, Siddhi Plast is 
+        Established in 1999,Sheet Plastics is 
         <strong> ISO 9001:2015 certified </strong> and
         Government of India certified Star Grade Export House.
       </p>
