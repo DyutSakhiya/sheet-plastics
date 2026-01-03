@@ -20,8 +20,8 @@ const Header = () => {
           <Link to="/" className="text-2xl font-bold text-siddhi-primary">
            
           </Link>
-          <img className='h-20 w-30 flex mr-auto'
-              src="/public/logo.jpg"></img>
+          <img className='h-ayuto w-30 flex mr-auto'
+              src="/public/sanidhy LOGO.png"></img>
           
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item) => (
